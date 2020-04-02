@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_update_contact"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Update Contact">
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/old_contact"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:hint="Enter Old Phone No."/>
+
+    <EditText
+        android:id="@+id/new_contact"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/old_contact"
+        android:hint="Enter New Phone No."
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/new_contact"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:hint="Enter New Or Old Name:"/>
+
+    <Button
+        android:id="@+id/update_contact_btn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="#3498db"
+        android:layout_below="@+id/new_name"
+        android:text="Update"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
