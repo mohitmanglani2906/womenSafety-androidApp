@@ -20,13 +20,13 @@
         </android.support.v7.widget.Toolbar>
     </LinearLayout>
 
-    <!--<WebView-->
-        <!--android:id="@+id/webViewSendMessage"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_marginTop="50dp"-->
-        <!--android:layout_centerHorizontal="true">-->
+    <WebView
+        android:id="@+id/webViewSendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true">
 
-    <!--</WebView>-->
+    </WebView>
 
 </RelativeLayout>
