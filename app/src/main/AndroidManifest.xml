@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mohit2906.womensafety">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
@@ -11,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Send_Message"></activity>
+        <activity android:name=".Send_Message"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".About_App"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

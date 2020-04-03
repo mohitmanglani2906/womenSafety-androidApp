@@ -10,7 +10,7 @@
         android:orientation="vertical">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbarregister"
+            android:id="@+id/toolbar_send_message"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
@@ -19,5 +19,14 @@
             app:title="Message Near By People">
         </android.support.v7.widget.Toolbar>
     </LinearLayout>
+
+    <!--<WebView-->
+        <!--android:id="@+id/webViewSendMessage"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_centerHorizontal="true">-->
+
+    <!--</WebView>-->
 
 </RelativeLayout>
